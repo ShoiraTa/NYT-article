@@ -21,7 +21,8 @@ Other
 
 - HTML & CSS
 
-![Screenshot of the project](./app_screenshot.png)
+live Demo
+https://shoirata.github.io/NYT-article/
 
 <!-- ## Live Demo
 
