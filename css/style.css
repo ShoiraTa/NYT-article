@@ -8,7 +8,6 @@
 }
 
 /* HEADER */
-
 nav {
   display: flex;
   height: 45px;
@@ -17,6 +16,8 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 20px;
+  position: fixed;
+  background-color: #fff;
 }
 a {
   line-height: 25px;
@@ -32,6 +33,9 @@ a:hover {
   flex-grow: 1;
   display: flex;
   align-items: center;
+}
+.nav-left h4 {
+  padding: 0;
 }
 
 .nyt-logo {
@@ -100,7 +104,7 @@ h3 {
   display: inline-block;
   background-color: #eee;
   border-radius: 100%;
-  padding: 10px;
+  padding: 6px 9px;
   margin: 3px;
 }
 
@@ -217,9 +221,12 @@ figcaption span {
   width: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: #5c5b5b;
 }
 /* Theory section */
 .theory-article2 {
+  display: flex;
+  flex-direction: column;
   width: 700px;
   margin: 0 auto;
 }
@@ -230,6 +237,13 @@ figcaption span {
 }
 .video {
   margin: 55px;
+}
+iframe {
+  border: 0px;
+}
+.fig-caption {
+  font-size: 13px;
+  color: #5c5b5b;
 }
 
 .bicep2-img img {
@@ -262,6 +276,7 @@ figcaption .caption-article2 {
 }
 .suggested-newsletters {
   border-top: solid 1px #323;
+
   margin-right: 20px;
   padding-top: 20px;
 }
@@ -302,9 +317,12 @@ h4 {
 }
 .popular-links {
   padding: 20px 0px 20px 0px;
-  font-size: 18px;
+
   width: 350px;
   border-bottom: solid 1px #e2e2e2;
+}
+.popular-links a {
+  font-size: 18px;
 }
 
 .more-space {
@@ -343,9 +361,13 @@ footer {
   height: 1px;
 }
 .logo {
-  display: flex;
-  justify-content: space-between;
   margin: 30px;
+}
+.logo a {
+  float: right;
+}
+.logo img {
+  width: 200px;
 }
 .footer-menu {
   display: flex;
@@ -366,6 +388,7 @@ li {
 
 .footer-bottom {
   margin-top: 15px;
+  border-top: solid 1px #e2e2e2;
 }
 
 .footer-bottom a {
