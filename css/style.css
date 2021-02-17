@@ -18,6 +18,9 @@ nav {
   width: 100vw;
   padding: 20px;
 }
+a:hover {
+  color: #5c5b5b;
+}
 
 .nav-left {
   flex-grow: 1;
@@ -42,7 +45,7 @@ nav {
   margin: 20px;
 }
 
-.btn-nav {
+.btn {
   height: 30px;
   margin-right: 7px;
   padding: 11px 12px 8px;
@@ -79,6 +82,10 @@ h1 {
   margin-bottom: 30px;
   width: 600px;
   line-height: 40px;
+}
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .share-links {
@@ -211,28 +218,114 @@ figcaption span {
 }
 /* Theory section */
 .theory-article2 {
-  display: flex;
-  flex-direction: row;
-  width: 900px;
-  margin-left: 350px;
+  width: 700px;
+  margin: 0 auto;
 }
-aside {
-  flex-grow: 2;
-}
+
 .denis-article {
-  flex-grow: 4;
   font-size: 20px;
   line-height: 27px;
-  margin-right: 50px;
+}
+.video {
+  margin: 55px;
 }
 
-.aside-articles {
+.bicep2-img img {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+figcaption .caption-article2 {
+  width: 550px;
+}
+
+.btn-comments {
+  padding: 10px 20px 10px 20px;
+}
+.article-footer_links.share-links {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin: 10px auto;
+  text-align: right;
+}
+/* suggested */
+.suggested {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+.suggested-newsletters {
+  border-top: solid 1px #323;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.suggested-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.suggested-card-1 {
+  border: solid 1px #c0bfbf;
+  margin-right: 5px;
+  width: 260px;
+  padding: 10px;
+}
+.suggested-card-1 img {
+  width: 100px;
+  height: 90px;
+  padding-bottom: 10px;
+}
+h4 {
+  padding: 10px 0 15px 0;
+}
+.suggested-card-1 button {
+  color: #329891;
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-top: auto;
+  position: relative;
+  align-self: flex-start;
+}
+.most-popular {
+  border-top: solid 1px #333;
+  padding-top: 20px;
+}
+.latest {
+  cursor: pointer;
+  padding: 10px 0px 10px 0px;
+}
+.popular-links {
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+  width: 350px;
+  border-bottom: solid 1px #e2e2e2;
 }
 
-.aside-articles div {
-  margin: 10px;
-  height: 100px;
-  color: #333;
+.more-space {
+  border-top: solid 1px #333;
+  margin-top: 30px;
+  padding-top: 20px;
 }
+.space-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.card1 img {
+  margin-left: 10px;
+  width: 270px;
+}
+.card1 p {
+  width: 290px;
+  padding: 10px;
+}
+.card1 figcaption {
+  margin-left: 230px;
+  color: #8d8c8c;
+  font-size: 10px;
+}
+/* Page footer */
