@@ -6,7 +6,9 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #121212;
 }
+
 /* HEADER */
+
 nav {
   display: flex;
   height: 45px;
@@ -16,6 +18,7 @@ nav {
   width: 100vw;
   padding: 20px;
 }
+
 .nav-left {
   flex-grow: 1;
   display: flex;
@@ -27,15 +30,18 @@ nav {
   flex-grow: 1;
   margin-top: 8px;
 }
+
 .nav-right {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
 }
+
 .nav-left .fas {
   margin: 20px;
 }
+
 .btn-nav {
   height: 30px;
   margin-right: 7px;
@@ -48,10 +54,17 @@ nav {
   font-size: 12px;
   cursor: pointer;
 }
+
+.author a {
+  text-decoration: underline;
+  color: #333;
+}
+
 nav a:hover {
   text-decoration: underline;
   opacity: 0.85;
 }
+
 /* Main */
 
 .article {
@@ -60,16 +73,21 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
 h1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
   width: 600px;
-  margin: 100px 0px 30px 0px;
   line-height: 40px;
 }
+
 .share-links {
   width: 600px;
   border-top: solid 1px #e2e2e2;
-  padding: 20px 0px 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .share-links li {
   display: inline-block;
   background-color: #eee;
@@ -77,45 +95,50 @@ h1 {
   padding: 10px;
   margin: 3px;
 }
+
 .header-img figure {
   margin: 0 auto;
   width: 900px;
 }
+
 .header-image {
   width: 900px;
 }
+
+p {
+  color: #333;
+}
+
 figcaption p {
-  margin: 10px 0px 20px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 760px;
   color: #5c5b5b;
   font-size: 16px;
   font-weight: 500;
 }
+
 figcaption span {
   color: #8d8c8c;
   font-size: 15px;
 }
+
 .article-text {
   width: 600px;
   font-size: 20px;
   line-height: 30px;
   color: #5c5b5b;
 }
+
 .article-details {
   width: 600px;
   margin: 0 auto 20px;
   font-family: Helvetica, Arial, sans-serif;
 }
+
 .author {
   font-weight: 700;
   padding-bottom: 10px;
-}
-.author a {
-  text-decoration: underline;
-  color: #333;
-}
-p {
-  color: #333;
 }
 
 .line {
