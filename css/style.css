@@ -19,10 +19,16 @@ nav {
   position: fixed;
   background-color: #fff;
 }
+
 a {
   line-height: 25px;
   font-size: 13px;
 }
+
+.logo a {
+  float: right;
+}
+
 a:hover {
   color: #5c5b5b;
   text-decoration: underline;
@@ -34,6 +40,11 @@ a:hover {
   display: flex;
   align-items: center;
 }
+
+h4 {
+  padding: 10px 0 15px 0;
+}
+
 .nav-left h4 {
   padding: 0;
 }
@@ -88,6 +99,7 @@ h1 {
   width: 600px;
   line-height: 40px;
 }
+
 h3 {
   margin-top: 25px;
   margin-bottom: 10px;
@@ -98,6 +110,10 @@ h3 {
   border-top: solid 1px #e2e2e2;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
 }
 
 .share-links li {
@@ -141,11 +157,23 @@ figcaption span {
   line-height: 30px;
   color: #5c5b5b;
 }
+
 .article-text a {
   text-decoration: underline;
   color: #567b95;
   font-size: 20px;
 }
+
+.popular-links a {
+  font-size: 18px;
+}
+
+.footer-bottom a {
+  padding: 5px 5px;
+  color: #5c5b5b;
+  font-size: 11px;
+}
+
 .article-text a:hover {
   text-decoration: none;
 }
@@ -189,6 +217,7 @@ figcaption span {
   width: 900px;
   margin: 30px auto;
 }
+
 .theory-subtile {
   color: #5c5b5b;
   font-size: 15px;
@@ -207,15 +236,18 @@ figcaption span {
   height: 600px;
   background-repeat: no-repeat;
 }
+
 .inflation-description span {
   font-weight: bold;
 }
+
 .inflation-description p {
   color: #5c5b5b;
   margin-top: 160px;
   line-height: 18px;
   margin-right: 20px;
 }
+
 .top-line {
   border: solid 1px #5c5b5b;
   width: 60px;
@@ -223,18 +255,23 @@ figcaption span {
   margin-bottom: 20px;
   background-color: #5c5b5b;
 }
+
 /* Theory section */
+
 .theory-article2 {
   width: 700px;
   margin: 0 auto;
 }
+
 .article2 {
   display: flex;
   flex-direction: row;
 }
+
 aside {
   margin-left: 200px;
 }
+
 .pick {
   display: flex;
   padding: 6px;
@@ -242,6 +279,7 @@ aside {
   margin: 10px 20px 8px 10px;
   align-items: center;
 }
+
 .pick p {
   font-size: 15px;
 }
@@ -251,6 +289,7 @@ aside {
   height: 100px;
   margin-right: 15px;
 }
+
 .editor-picks {
   font-size: 14px;
   font-weight: 700;
@@ -263,12 +302,15 @@ aside {
   font-size: 20px;
   line-height: 27px;
 }
+
 .video {
   margin: 55px;
 }
+
 iframe {
-  border: 0px;
+  border: none;
 }
+
 .fig-caption {
   font-size: 13px;
   color: #5c5b5b;
@@ -287,6 +329,7 @@ figcaption .caption-article2 {
 .btn-comments {
   padding: 10px 20px 10px 20px;
 }
+
 .article-footer_links.share-links {
   display: flex;
   justify-content: space-between;
@@ -295,37 +338,40 @@ figcaption .caption-article2 {
   margin: 10px auto;
   text-align: right;
 }
+
 /* suggested */
+
 .suggested {
   display: flex;
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
 }
+
 .suggested-newsletters {
   border-top: solid 1px #323;
-
   margin-right: 20px;
   padding-top: 20px;
 }
+
 .suggested-cards {
   display: flex;
   justify-content: space-between;
 }
+
 .suggested-card-1 {
   border: solid 1px #c0bfbf;
   margin-right: 5px;
   width: 260px;
   padding: 10px;
 }
+
 .suggested-card-1 img {
   width: 100px;
   height: 90px;
   padding-bottom: 10px;
 }
-h4 {
-  padding: 10px 0 15px 0;
-}
+
 .suggested-card-1 button {
   color: #329891;
   background-color: #fff;
@@ -335,22 +381,21 @@ h4 {
   position: relative;
   align-self: flex-start;
 }
+
 .most-popular {
   border-top: solid 1px #333;
   padding-top: 20px;
 }
+
 .latest {
   cursor: pointer;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0;
 }
-.popular-links {
-  padding: 20px 0px 20px 0px;
 
+.popular-links {
+  padding: 20px 0;
   width: 350px;
   border-bottom: solid 1px #e2e2e2;
-}
-.popular-links a {
-  font-size: 18px;
 }
 
 .more-space {
@@ -358,68 +403,75 @@ h4 {
   margin-top: 30px;
   padding-top: 20px;
 }
+
 .fig-caption-nasa {
   float: right;
   margin-right: 10px;
   font-size: 13px;
   color: #5c5b5b;
 }
+
 .fig-caption-date {
   color: #5c5b5b;
   font-size: 13px;
   margin-left: 8px;
 }
+
 .space-cards {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
 }
+
 .card1 img {
   margin-left: 10px;
   width: 270px;
 }
+
 .card1 p {
   width: 290px;
   padding: 10px;
 }
+
 .card1 figcaption {
   margin-left: 230px;
   color: #8d8c8c;
   font-size: 10px;
 }
+
 /* Page footer */
+
 footer {
   width: 80vw;
-  margin: 0px auto;
+  margin: 0 auto;
   padding-top: 50px;
 }
+
 .top-line-footer {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
   height: 1px;
 }
+
 .logo {
   margin: 30px;
 }
-.logo a {
-  float: right;
-}
+
 .logo img {
   width: 200px;
 }
+
 .footer-menu {
   display: flex;
   justify-content: space-between;
-}
-li {
-  list-style: none;
 }
 
 .section-title {
   font-weight: 700;
   padding-bottom: 4px;
 }
+
 .subscribe {
   border-left: solid 1px #e2e2e2;
   padding-left: 15px;
@@ -428,10 +480,4 @@ li {
 .footer-bottom {
   margin-top: 15px;
   border-top: solid 1px #e2e2e2;
-}
-
-.footer-bottom a {
-  padding: 5px 5px;
-  color: #5c5b5b;
-  font-size: 11px;
 }
