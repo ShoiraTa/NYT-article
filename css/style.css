@@ -78,7 +78,9 @@ h4 {
   font-size: 12px;
   cursor: pointer;
 }
-
+.author {
+  margin-top: 20px;
+}
 .author a {
   text-decoration: underline;
   color: #333;
@@ -94,22 +96,19 @@ h4 {
 }
 
 h1 {
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 100px 0 30px 0;
   width: 600px;
   line-height: 40px;
 }
 
 h3 {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin: 25px 0 10px 0;
 }
 
 .share-links {
   width: 600px;
   border-top: solid 1px #e2e2e2;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
 }
 
 li {
@@ -138,8 +137,7 @@ p {
 }
 
 figcaption p {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 10px 0 20px 0;
   width: 760px;
   color: #5c5b5b;
   font-size: 16px;
@@ -221,8 +219,7 @@ figcaption span {
 .theory-subtile {
   color: #5c5b5b;
   font-size: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px 0 15px 0;
 }
 
 .inflation-description {
@@ -243,16 +240,14 @@ figcaption span {
 
 .inflation-description p {
   color: #5c5b5b;
-  margin-top: 160px;
+  margin: 160px 0 0 20px;
   line-height: 18px;
-  margin-right: 20px;
 }
 
 .top-line {
   border: solid 1px #5c5b5b;
   width: 60px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
   background-color: #5c5b5b;
 }
 
@@ -456,6 +451,7 @@ footer {
 
 .logo {
   margin: 30px;
+  cursor: pointer;
 }
 
 .logo img {
@@ -465,6 +461,7 @@ footer {
 .footer-menu {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .section-title {
@@ -478,6 +475,6 @@ footer {
 }
 
 .footer-bottom {
-  margin-top: 15px;
+  padding: 15px 0;
   border-top: solid 1px #e2e2e2;
 }
